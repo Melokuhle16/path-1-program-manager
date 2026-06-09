@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabbed Interface</title>
+
+    <link rel="stylesheet" href="tabbed.css">
+</head>
+
+<body>
+
+<div class="container">
+
+    <div class="tabs">
+
+        <button class="tab-button active" data-tab="tab1">
+            Tab 1
+        </button>
+
+        <button class="tab-button" data-tab="tab2">
+            Tab 2
+        </button>
+
+        <button class="tab-button" data-tab="tab3">
+            Tab 3
+        </button>
+
+    </div>
+
+    <div class="content active-content" id="tab1">
+        <h2>Tab 1</h2>
+        <p>This is the content for Tab 1.</p>
+    </div>
+
+    <div class="content" id="tab2">
+        <h2>Tab 2</h2>
+        <p>This is the content for Tab 2.</p>
+    </div>
+
+    <div class="content" id="tab3">
+        <h2>Tab 3</h2>
+        <p>This is the content for Tab 3.</p>
+    </div>
+
+</div>
+
+<script src="tabbed.js"></script>
+
+</body>
+</html>
